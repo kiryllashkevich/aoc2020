@@ -1,5 +1,5 @@
 const fs = require('fs');
 
-exports.readFile = (fileName) => {
-    return fs.readFileSync(fileName, 'utf8').split('\n');
+exports.readFile = (fileName, splitter = '\n') => {
+    return fs.readFileSync(fileName, 'utf8').split(splitter);
 }
