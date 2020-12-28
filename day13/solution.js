@@ -1,4 +1,3 @@
-const { time } = require('console');
 const { readFile } = require('../utils/readFile');
 
 // Read input from file
